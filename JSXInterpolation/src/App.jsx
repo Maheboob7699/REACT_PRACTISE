@@ -4,7 +4,6 @@ import Jsx from './assets/Component/JSX';
 
 function App() {
 let name = "Murdi Mehboob";
-
   return (
     <>
   <Jsx/>
