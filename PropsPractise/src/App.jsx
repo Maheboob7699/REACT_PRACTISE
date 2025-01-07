@@ -10,7 +10,7 @@ const[name, setName] = useState(false);
 
   return (
     <>
-     <PropsPractise name = {name} onClick ={ClickMe}/>
+     <PropsPractise name={name} onClick={ClickMe}/>
     </>
   )
 }
