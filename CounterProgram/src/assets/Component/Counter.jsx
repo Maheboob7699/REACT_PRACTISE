@@ -1,6 +1,5 @@
 
 import './style.css';
-
 function Counter({count, Increment ,Decrement}){
     return(
         <>
