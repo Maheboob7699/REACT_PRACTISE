@@ -11,6 +11,7 @@ function Counter({count, Increment ,Decrement}){
         </div>
         </div>
         </>
+        
     )
 }
 export default Counter
