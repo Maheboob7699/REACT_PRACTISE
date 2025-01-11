@@ -1,4 +1,4 @@
-function TempInput({ temperature, changeTemperature }) {   
+function TempInput({temperature,changeTemperature}) {   
     return (
         <>
             <label>
