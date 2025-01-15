@@ -92,7 +92,7 @@ class LifeCycleMethod extends Component {
     }
 
     componentDidUpdate(prevProps, prevState) {
-        if (prevState.product !== this.state.product) {
+        if (prevState.product !== this.state.product) { //breaking condition
             console.log("Component did update");
         }
     }
@@ -107,6 +107,9 @@ class LifeCycleMethod extends Component {
     }
 
     render() {
+        const {data} = this.state;
+        const {key} = this.props;
+
         return (
             <>
                 <h1>Life cycle Method</h1>
