@@ -6,8 +6,6 @@ function DisplayData(){
     const {input,handleDelete} = useContext(todoData);
     
     return(
-
-
         <>
           {
             input.store.map((item,index)=>{
