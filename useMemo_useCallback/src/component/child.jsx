@@ -1,6 +1,6 @@
 import { memo } from "react";
 
-function ChildDisplay({todo, todoAdd}){
+function ChildDisplay({todo,todoAdd}){
     console.log(todo);
     return(
         <>
