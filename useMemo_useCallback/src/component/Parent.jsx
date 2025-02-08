@@ -6,7 +6,6 @@ function Display(){
     function increment(){
         setCount(count+1)
     }
-
     let multiplyData = useMemo(function multiply(){
         console.log("multiply called");
         return count*10;
